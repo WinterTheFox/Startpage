@@ -93,12 +93,13 @@ To select search engine, simply prefix the query with the corresponding `!<id>`.
 - `!p`: PerplexityAI
 - `!g`: Google
 - `!d`: DuckDuckGo
-
+- `!b`: Brave
+  
 The default search engine can be set in the `userconfig.js` file (use the engine ID without the `!` prefix):
 
 ```javascript
 search: {
-  default: "d"
+  default: "b"
 }
 ```
 
